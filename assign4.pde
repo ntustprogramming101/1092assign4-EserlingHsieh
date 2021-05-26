@@ -217,7 +217,7 @@ void draw() {
 		// > Remember to check if playerHealth is smaller than PLAYER_MAX_HEALTH!
 		for(int a = 0; a < cabbageX.length; a++){
 			image(cabbage, cabbageX[a], cabbageY[a]);
-			if (playerX == cabbageX[a] && playerY == cabbageY[a] && plauHealth!=PLAYER_MAX_HEALTH){
+			if (playerX == cabbageX[a] && playerY == cabbageY[a] && playerHealth!=PLAYER_MAX_HEALTH){
 				cabbageX[a] = -80;
 				cabbageY[a] = -80;
 				playerHealth++;
